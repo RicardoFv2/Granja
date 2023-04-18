@@ -20,7 +20,7 @@ body{
     height: 45px;
     width: 250px;
     background-color: #FF8A33;
-    color:#000000;
+    color:white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     transition: .3s;
@@ -30,7 +30,7 @@ body{
     height: 45px;
     width: 250px;
     background-color: #d47831;
-    color:white;
+    color:black;
     transition: .3s;
 }
 .menus:active{
@@ -91,11 +91,12 @@ button{ /*Resetea css de <button>*/
     align-items: center;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     color: #eeeeee;
   }
   .abrirModal:hover{
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    color:black;
   }
   .abrirCP{
     position: absolute;
@@ -107,11 +108,12 @@ button{ /*Resetea css de <button>*/
     align-items: center;
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     color: #eeeeee;
   }
   .abrirCP:hover{
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    color:black;
   }
 .buscador{
     background-color: #fbfbfb; 
@@ -127,7 +129,7 @@ button{ /*Resetea css de <button>*/
 }
 /*------------FOOTER------------------------------------*/
 footer{
-    height:400px;
+    height:600px;
     bottom:0;
     width:1280px;
     background-color: #030303;
@@ -136,6 +138,8 @@ footer{
     text-align: center;
     border-top: solid 8px #F2CA52;
     box-sizing: border-box;/*corrige padding vs width*/
+    font-family: palo;
+    font-size: 22px;
 }
 #wrapper {
     min-height: 75%;
@@ -153,10 +157,9 @@ footer{
   
 }
 .iconosFormasdePago{
-  height: 59px;
+  height: 40px;
   margin-right: 20px;
   max-width: 100%;
-  background-color: #bcb8b1;
   border-radius: 10px;
 }
 
@@ -168,7 +171,7 @@ footer{
 /*-----------SLIDER--------------------------------------*/
 .slider {
 	width: 1280;
-    height: 420px;
+    height: 650px;
 	margin:auto;
 	overflow: hidden;
 }
@@ -259,8 +262,8 @@ footer{
     display: flex;
     color: white;
     font-weight: 100;
-    font-size: 18px;
-    backdrop-filter: blur(8px) brightness(80%);
+    font-size: 22px;
+    backdrop-filter: blur(8px) brightness(15%);
     height: 100%;
     width: 100%;
     padding: 1rem;
@@ -277,10 +280,10 @@ footer{
     top: 0;
     left: 0;
     padding: 1rem;
-    font-size: 100%;
+    font-size: 20px;
     font-weight: 100;
     color:white;
-    backdrop-filter: blur(8px) brightness(80%);
+    backdrop-filter: blur(8px) brightness(40%);
     text-shadow: 0 0 10px #000000, 0 0 5px #000000;
 }
 /*-----------------FORMULARIO-----------------------------------*/

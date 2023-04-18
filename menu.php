@@ -28,15 +28,13 @@ if (isset($_POST['add_to_cart'])) {
     mysqli_query($conn, "INSERT INTO `cart` (user_id, name, price, image, quantity) VALUES ('$user_id', '$product_name', '$product_price', '$product_image', '$product_quantity')") or die('query failed w');
     $message[] = 'product added to cart!';
   }
-}
-;
+};
 
 if (isset($_POST['update_cart'])) {
   $update_quantity = $_POST['cart_quantity'];
   $update_id = $_POST['cart_id'];
   mysqli_query($conn, "UPDATE `cart` SET quantity = '$update_quantity' WHERE id= '$update_id'") or die('query failed r');
   $message[] = 'cart quantity updated successfully';
-
 }
 
 if (isset($_GET['remove'])) {
@@ -141,8 +139,7 @@ if (isset($_GET['delete_all'])) {
                   <div class="flex">
                     <a href="login/index.php" class="btn">Login</a>
                     <a href="register.php" class="option-btn">Register</a>
-                    <a href="menu5.php?php echo $user_id; ?>"
-                      onclick="return confirm('are you sure you want to logout');" class="delete-btn">logout</a>
+                    <a href="menu5.php?php echo $user_id; ?>" onclick="return confirm('are you sure you want to logout');" class="delete-btn">logout</a>
 
                   </div>
         </div>
@@ -165,7 +162,7 @@ if (isset($_GET['delete_all'])) {
               while ($row = mysqli_fetch_array($query)) {
                 $total = $row['cantidad'] * $row['precio'];
                 $suma += $total;
-                ?>
+              ?>
                 <tr>
                   <td>
                     <?php echo $row['descripcion']; ?>
@@ -177,11 +174,10 @@ if (isset($_GET['delete_all'])) {
                     <?php echo $row['precio']; ?>
                   </td>
                   <td>
-                    <a href="delete.php?id=<?php echo $row['id']; ?>"><img
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAeFBMVEUAAADnTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDx+VWpeAAAAJ3RSTlMAAQIFCAkPERQYGi40TVRVVlhZaHR8g4WPl5qdtb7Hys7R19rr7e97kMnEAAAAaklEQVQYV7XOSQKCMBQE0UpQwfkrSJwCKmDf/4YuVOIF7F29VQOA897xs50k1aknmnmfPRfvWptdBjOz29Vs46B6aFx/cEBIEAEIamhWc3EcIRKXhQj/hX47nGvt7x8o07ETANP2210OvABwcxH233o1TgAAAABJRU5ErkJggg=="></a>
+                    <a href="delete.php?id=<?php echo $row['id']; ?>"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAeFBMVEUAAADnTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDx+VWpeAAAAJ3RSTlMAAQIFCAkPERQYGi40TVRVVlhZaHR8g4WPl5qdtb7Hys7R19rr7e97kMnEAAAAaklEQVQYV7XOSQKCMBQE0UpQwfkrSJwCKmDf/4YuVOIF7F29VQOA897xs50k1aknmnmfPRfvWptdBjOz29Vs46B6aFx/cEBIEAEIamhWc3EcIRKXhQj/hX47nGvt7x8o07ETANP2210OvABwcxH233o1TgAAAABJRU5ErkJggg=="></a>
                   </td>
                 </tr>
-                <?php
+              <?php
               }
               ?>
             </tbody>
@@ -200,7 +196,7 @@ if (isset($_GET['delete_all'])) {
         include('conn.php');
         $query = mysqli_query($conn, "select * from `user`");
         while ($row = mysqli_fetch_array($query)) {
-          ?>
+        ?>
 
           <div class="box P">
 
@@ -224,7 +220,7 @@ if (isset($_GET['delete_all'])) {
             </div>
           </div>
 
-          <?php
+        <?php
         }
         ?>
 

@@ -8,6 +8,7 @@
   <title>La Granjita</title>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/responsivecss" />
+  <link rel="stylesheet" href="css/font.css">
 </head>
 
 <body>
@@ -21,7 +22,7 @@
       <div class="container">
         <div class="box L">
           <div class="titulos">QUIENES SOMOS</div>
-          <img src="https://i.ibb.co/z2xMcmc/qs.png" class="porf" style="object-fit: contain;" />
+          <img src="img/icons/cerdoIcon.png" class="porf" style="object-fit: contain;" />
           <div class="fantasma">
             Somos una empresa familiar fundada el 31 de julio de 1988, con
             alto conocimiento en la producción y venta de comidas rápidas, la
@@ -35,7 +36,7 @@
 
         <div class="box L">
           <div class="titulos">MISION</div>
-          <img src="https://i.ibb.co/fHBPnYV/102349.png" class="porf" style="object-fit: contain;" />
+          <img src="https://st.depositphotos.com/1092019/3536/i/600/depositphotos_35369309-stock-photo-mission-business-concept.jpg" class="porf" style="object-fit: contain;" />
           <div class="fantasma">
             Tiene como misión darle la excelencia a nuestros productos de
             comidas rápidas con alta calidad, nutritivos sanos y frescos, en
@@ -47,7 +48,7 @@
         </div>
         <div class="box L">
           <div class="titulos">VISION</div>
-          <img src="https://i.ibb.co/XyJ1srD/5481993.png" class="porf" style="object-fit: contain;" />
+          <img src="https://media.istockphoto.com/id/1022774744/es/vector/concepto-de-visi%C3%B3n-empresarial.jpg?s=170667a&w=0&k=20&c=EdJba3h7XGObP3RWXVsBwpLIi1IUYCS0AmewVcWlc_4=" class="porf" style="object-fit: contain;" />
           <div class="fantasma">
             Tiene como visión consolidarnos como la mejor empresa a nivel
             nacional, en cuanto a la producción y venta de comidas rápidas,
@@ -60,7 +61,7 @@
         <div class="box M">
           <div class="titulos">Massimo Bottura</div>
           <img
-            src="https://www.cocinayvino.com/wp-content/uploads/2020/11/www.cocinayvino.com-massimo-bottura-y-sus-palabras-ante-el-wef-cronacasocialcom-1-696x392.jpg"
+            src="https://images.ecestaticos.com/JjMiY54z4BKuT8mzuqiONTlNBt4=/0x109:2119x1301/1200x675/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fb02%2F4cc%2F30d%2Fb024cc30d62f4897628336118f716af1.jpg"
             class="porf" />
           <div class="fantasma">
             Nacido y criado en Modena, en la región italiana de Emilia

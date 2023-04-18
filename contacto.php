@@ -8,6 +8,7 @@
     <title>La Granjita | Ubicacion</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsivecss" />
+    <link rel="stylesheet" href="css/font.css">
 </head>
 
 <body>
